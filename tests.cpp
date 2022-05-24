@@ -2,16 +2,10 @@
 #include "catch.hpp"
 #include "HighScores.h"
 
-TEST_CASE("HighScores unit tests") {
-    SECTION("Test getNumScores()") {
-        HighScores hs;
+TEST_CASE("step 2") {
+    HighScores hs;
 
-        SECTION("Object has no items") {
-            REQUIRE(hs.getNumScores() == 0);
-        }
-        SECTION("Add a score") {
-            hs.addScore(30);
-            REQUIRE(hs.getNumScores() == 1);
-        }
+    SECTION("Object has no items") {
+        REQUIRE(hs.getNumScores() == 0);
     }
 }

@@ -1,5 +1,5 @@
 *.o
 *.gch
-HighScores
+highScores
 a.out
 HighScores.cpp
