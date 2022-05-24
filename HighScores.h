@@ -6,19 +6,10 @@ class HighScores {
     static const int MAX_SCORES = 10;
 
 public:
-    HighScores();
 
-    int getNumScores();
-
-    void addScore(int score);
-    int getScore(unsigned index);
 
 private:
-    int myNumScores;
-    int myScores[MAX_SCORES];
 
-    int findLocationToInsert(int newScore);
-    void shiftUp(int fromIndex);
 };
 
 #endif
