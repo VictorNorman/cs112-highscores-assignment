@@ -1,3 +1,2 @@
-# cs112-magic-square-assignment
+# cs112-highscores-assignment
 
-## project 2

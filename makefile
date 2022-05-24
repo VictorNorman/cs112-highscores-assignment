@@ -14,7 +14,7 @@
 
 
 # project name (generate executable with this name)
-TARGET   = magic_square
+TARGET   = highscores
 
 CPP       = g++ --std=c++11 -c
 # compiling flags here

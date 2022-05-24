@@ -1,4 +1,5 @@
 *.o
 *.gch
-magic_square
+HighScores
 a.out
+HighScores.cpp
